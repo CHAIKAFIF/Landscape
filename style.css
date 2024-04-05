@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    background-color: #eeeeee;
+    color: #575050; 
+}
+
+.Banner {
+    background-image: url(Background11.png);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 200px 0;
+}
+.Banner h1, .Banner p {
+    background-color: rgba(202, 206, 205, 0.603); 
+    margin: 20px auto;
+    padding: 20px; 
+    border-radius: 10px; 
+    color: rgb(255, 253, 253);
+}
+
+.Banner h1 {
+    font-size: 110px;
+    font-weight: 800;
+}
+
+.Banner p {
+    font-size: 24px;
+
+}
+
+.Banner p, .container p {
+    font-size: 24px;
+    color: #585240; 
+}
+
+.btn-brown {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #304402;
+    padding: 12px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+ 
+ 
+.card img {
+ 
+    border-radius: 4px;
+ 
+    width: 100%;
+ 
+    height: 150px;
+ 
+    object-fit: cover;
+ 
+}
+ 
+.Cards{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+ 
+}
+.container {
+ 
+    margin: 40px auto;
+ 
+    width: 900px;
+ 
+    text-align: center;
+ 
+}
+ 
+ 
+ 
+.card {
+ 
+    box-shadow: 0 10px 20px rgba(0, 0,0,0.1);
+ 
+    padding: 20px;
+ 
+    border-radius: 4px;
+ 
+    margin: 30px 10px;
+ 
+}
+ 
+ 
+ 
+.card img {
+ 
+    border-radius: 4px;
+ 
+    width: 100%;
+ 
+    height: 150px;
+ 
+    object-fit: cover;
+ 
+}
+ 
+.Cards{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+ 
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  .footer h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .footer p, .footer a {
+    color: #666;
+    line-height: 1.6;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer div {
+    margin-bottom: 20px;
+  }  
+  .social-media a {
+    color: rgb(70, 67, 67); /* Couleur des icônes */
+    margin: 0 10px; /* Espacement autour des icônes */
+    font-size: 24px; /* Taille des icônes */
+    transition: color 0.3s ease; 
+}
+
+.social-media a:hover {
+    color: #ddd; /
+}
